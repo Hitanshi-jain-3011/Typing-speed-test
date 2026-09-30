@@ -1,24 +1,55 @@
-# Typing Speed Test
+# ⌨️ Typing Speed Test
 
-## About
-A web-based typing speed test application.
+A web-based Typing Speed Test application developed during my 15-day industrial training at Scrum Digital Pvt. Ltd.
 
-## Features
-- User Registration & Login
-- Typing Speed Test
-- WPM calculation
-- Accuracy calculation
-- Performance Dashboard
-- Test History
-- Leaderboard
+## 📌 About the Project
 
-## Technologies Used
+This application allows users to test and improve their typing speed and accuracy. It provides a personalized dashboard where users can view their performance, previous test results, and leaderboard rankings.
+
+## ✨ Features
+
+- 🔐 User Registration and Login
+- ⌨️ Typing Speed Test
+- 📊 Words Per Minute (WPM) calculation
+- 🎯 Accuracy calculation
+- 📈 Performance Dashboard
+- 📜 Test History
+- 🏆 Leaderboard
+- 🚪 Login/Logout functionality
+- 🗄️ Database integration
+
+## 🛠️ Technologies Used
+
 - HTML
 - CSS
 - JavaScript
 - PHP
 - MySQL
 
+## 📂 Project Structure
 
-## Developed During
-15-Day Industrial Training at Scrum Digital Pvt. Ltd.
+```text
+typing_speed_test/
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+├── database/
+│   └── typing.sql
+│
+├── includes/
+│   ├── auth.php
+│   └── db.php
+│
+├── index.php
+├── login.php
+├── register.php
+├── dashboard.php
+├── test.php
+├── history.php
+├── leaderboard.php
+├── save_result.php
+└── logout.php
